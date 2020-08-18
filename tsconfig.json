@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "module": "commonjs",
+    "target": "ESNext",
+    "jsx": "preserve",
+    "sourceMap": true,
+    "outDir": "dist",
+    "sourceRoot": "src",
+    "rootDir": "src",
+    "experimentalDecorators": true
+  },
+  "exclude": [
+    "node_modules",
+    "**/node_modules/*",
+    "dist"
+  ],
+  "references": [
+    {
+      "path": "./node_modules/@saggitarius/typing"
+    },
+    {
+      "path": "./node_modules/@saggitarius/future"
+    },
+    {
+      "path": "./node_modules/@saggitarius/package"
+    },
+    {
+      "path": "./node_modules/@saggitarius/filesystem"
+    },
+    {
+      "path": "./node_modules/@saggitarius/path"
+    }
+  ]
+}
